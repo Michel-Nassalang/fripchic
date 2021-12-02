@@ -1,0 +1,157 @@
+body{
+    background-image: url("ecriture.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.admin h1{
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    color: rgb(14, 146, 223);
+    text-align: center;
+    background-color:  rgba(44, 43, 43, 0.712);;
+    border-radius: 7px;
+    font-family: 'cooper black';
+    justify-content: center;
+    text-align: center;
+}
+
+form{
+    right: 15%;
+    top: 120px;
+    position: absolute;
+    height: 500px;
+    width: 20%;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 2px;
+    box-shadow: 5px 2px 2px rgb(197, 194, 194);
+    background:  rgba(44, 43, 43, 0.712);
+    padding-left: 15px;
+    overflow: hidden;
+}
+form h3, form h2 {
+    justify-content: center;
+    z-index: 999;
+    font-family: 'cooper black';
+}
+input{
+    border-radius: 3px;
+    border: none;
+}
+form .entree{
+    height: 25px;
+    width: 250px;
+    justify-content: center;
+    border-radius: 4px;
+    flex-wrap: wrap;
+}
+form .submit{
+    padding: 8px;
+    border-radius: 2px;
+    position: absolute;
+    margin-top: 15px;
+    right: 40%;
+    font-family: "cooper black";
+    background-color: rgb(14, 146, 223);
+}
+
+/* -------------------------------------------- */
+.acceuil{
+    position: absolute;
+    top:30px;
+    right: 20%;
+    background: rgb(14, 146, 223);
+    width: 30%;
+    height: 70px;
+    justify-content:center;
+    text-align: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    };
+.bvenue{
+    font-family: 'Forte';
+    text-align: center;
+    justify-content: center;
+    color: grey;
+    }
+    /* ---------------------------------------------- */
+.ajout_produit{
+        margin-top: 15px;
+        text-decoration: none;
+        position: absolute;
+        top:250px;
+        right: 35%;
+        width: 15%;
+        height: 20px;
+        flex-wrap: wrap;
+    }
+    .modifier_produit{
+        margin-top: 15px;
+        text-decoration: none;
+        position: absolute;
+        top:280px;
+        right: 35%;
+        width: 15%;
+        height: 20px;
+        flex-wrap: wrap;
+    } 
+    .ajout_categorie{
+        margin-top: 15px;
+        text-decoration: none;
+        position: absolute;
+        top:310px;
+        right: 35%;
+        width: 15%;
+        height: 20px;
+        flex-wrap: wrap;
+    }
+    .modifier_categorie{
+        margin-top: 15px;
+        text-decoration: none;
+        position: absolute;
+        top:340px;
+        right: 35%;
+        width: 15%;
+        height: 20px;
+        flex-wrap: wrap;
+    }
+
+.ajout_produit a, .modifier_produit a, .ajout_categorie a, .modifier_categorie a{
+    border-radius: 4px;
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    background:  rgb(89, 90, 90);
+    padding: 6px;
+    justify-content:center;
+    text-align: center;
+    font-family: 'calibri';
+}
+.form2{
+    right: 15%;
+    top: 120px;
+    position: absolute;
+    height: 550px;
+    width: 20%;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 6px;
+    box-shadow: 5px 2px 2px rgb(197, 194, 194);
+    background:  rgba(0, 0, 0, 0.404);
+    padding-left: 15px;
+    overflow: hidden;
+}
+.num{
+    margin-right: 10px;
+    width: 45px;
+    border-radius: 4px;
+}
